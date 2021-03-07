@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>Front-zadanie1</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <section class = "header-logo">LOGO</section>
+            <nav>
+                <ol>
+                <a href="#"><li>Inwestycja</li></a>
+                <a href="#"><li>Lokalizacja</li></a>
+                <a href="#interactive-img"><li>Domy</li></a>
+                <a href="#"><li>Kontakt</li></a>
+                <i class="fas fa-phone-alt"><li></li></i>
+                <i class="fab fa-facebook-f"><li></li></i>
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <div class="miniMenu">
+        <nav>
+            <ol>
+            <a href="#"><li>Inwestycja</li></a>
+            <a href="#"><li>Lokalizacja</li></a>
+            <a href="#interactive-img"><li>Domy</li></a>
+            <a href="#"><li>Kontakt</li></a>
+            </ol>
+        </nav>
+    </div>
+   
+
+    <section id = "interactive-img">
+    
+        <img src="img/domy-osiedle-2.jpg" alt="osiedle" usemap="#offers" id = "offers">
+
+        <map name="offers">
+            <area  alt="house1" title="wolne" href="#" coords="210,1167,992,929,1182,1061,1305,1388,1314,1534,1336,1579,1349,1685,1438,1857,1186,1950,677,1946" shape="poly">
+            <area  alt="house2" title="wolne" href="#" coords="988,933,1462,799,2003,1674,1440,1852,1343,1667,1329,1579,1314,1533,1306,1378,1188,1059" shape="poly">
+            <area  alt="house3" title="wolne" href="#" coords="1462,811,1966,648,2047,730,2217,752,2388,1056,2388,1204,2417,1241,2417,1323,2551,1493,2003,1679" shape="poly">
+            <area  alt="house4" title="wolne" href="#" coords="1966,651,2425,525,2580,636,2729,940,3054,1325,2543,1496,2417,1311,2410,1249,2388,1204,2380,1051,2225,754,2040,725" shape="poly">
+            <area  alt="house5" title="wolne" href="#" coords="2417,532,2891,406,2980,458,3240,444,3380,725,3358,881,3395,918,3395,992,3506,1163,3062,1326,2706,925,2580,636" shape="poly">
+            <area  alt="house6" title="wolne" href="#" coords="2891,399,3336,266,3543,340,3684,636,3995,1007,3514,1170,3395,1000,3403,918,3358,881,3388,733,3240,436,2980,466" shape="poly">
+            <area  alt="house7" title="wolne" href="#" coords="3329,269,3758,135,3862,194,4166,172,4314,454,4277,595,4314,624,4299,713,4440,854,3988,1010,3677,632,3529,343" shape="poly">
+            <area  alt="house8" title="wolne" href="#" coords="3751,135,4158,16,4440,68,4573,357,4877,706,4440,854,4299,706,4306,617,4262,587,4306,439,4166,172,3862,194" shape="poly">
+        </map>
+
+    </section>
+
+    <section id = "table-offer">
+        <div class="container1">
+            <h1>Sprawdź dostępność</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"><g><rect fill="none" height="24" width="24" x="0"/></g><g><g><path d="M18.89,14.75l-4.09-2.04c-0.28-0.14-0.58-0.21-0.89-0.21H13v-6C13,5.67,12.33,5,11.5,5S10,5.67,10,6.5v10.74L6.75,16.5 c-0.33-0.07-0.68,0.03-0.92,0.28L5,17.62l4.54,4.79C9.92,22.79,10.68,23,11.21,23h6.16c1,0,1.84-0.73,1.98-1.72l0.63-4.46 C20.1,15.97,19.66,15.14,18.89,14.75z"/><path d="M20.13,3.87C18.69,2.17,15.6,1,12,1S5.31,2.17,3.87,3.87L2,2v5h5L4.93,4.93c1-1.29,3.7-2.43,7.07-2.43 s6.07,1.14,7.07,2.43L17,7h5V2L20.13,3.87z"/></g></g></svg>
+        </div>
+        <table>
+            <tr>
+                <th>nr lokalu</th>
+                <th>powierzchnia</th>
+                <th>działka</th>
+                <th>miesjca postojowe</th>
+                <th>dostępność</th>
+                <th>termin</th>
+                <th>cena</th>
+                <th>rzut 2D</th>
+                <th>karta lokalu</th>
+                <th>wirualny spacer</th>
+            </tr>
+            
+            <tr id = "oneA">
+                <td>1A</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>364 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolne</td>
+                <td>09/21</td>
+                <td>569 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "oneB">
+                <td>1B</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolny</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "twoA">
+                <td>2A</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>rezerwacja</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "twoB">
+                <td>2B</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolny</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "threeA">
+                <td>3A</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolny</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "threeB">
+                <td>3B</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolny</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "fourA">
+                <td>4A</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>wolny</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+
+            <tr id = "fourB">
+                <td>4B</td>
+                <td>144,60 m<sup>2</sup></td>
+                <td>268 m<sup>2</sup></td>
+                <td>3</td>
+                <td>rezerwacja</td>
+                <td>09/21</td>
+                <td>550 tys. zł</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+                <td>zobacz</td>
+            </tr>
+        </table>
+
+    </section>
+
+
+    <script src="script/jquery-1.7.1.min.js"></script>
+    <script src="script/jquery.imagemapster.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="https://kit.fontawesome.com/82ba8b7dec.js" crossorigin="anonymous"></script>
+
+    <script>
+        
+    </script>
+</body>
+</html>
